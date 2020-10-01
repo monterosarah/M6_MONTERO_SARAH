@@ -1,3 +1,71 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* Navigation */
+
+nav {
+    background: #000d33;
+    width: 105.6%;
+    opacity: 93%;
+    list-style-type: none;
+    font-size: 1em;
+    cursor: default;
+    float: left;
+    margin-left: -5%;
+    padding: 0;
+}
+
+nav li {
+    line-height: 5px;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    cursor: pointer;
+    float: left;
+    text-decoration: underline;
+}
+
+nav ul {
+    width: 20%;
+    margin-left: 46%;
+    margin-right: 44%;
+	padding: 0;
+	list-style-type: none;
+    height: 25px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+}
+
+/* Headings */
+
+
+
+ul.MenuBarHorizontal li
+{
+	line-height: .5em;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	text-align: center;
+	cursor: pointer;
+	width: 172px;
+	float: left;
+}
+
+ul.MenuBarHorizontal ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 55%;
+	z-index: 1020;
+	cursor: default;
+	width: 8.2em;
+	height: 5em;
+	position: absolute;
+	left: -1000em;
+}
