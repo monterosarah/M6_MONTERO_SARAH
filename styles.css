@@ -7,7 +7,7 @@ nav {
     background: #2e294e;
     width: 105.6%;
     list-style-type: none;
-    font-size: .9em;
+    font-size: 1.2em;
     cursor: default;
     float: left;
     margin-left: -5%;
@@ -15,8 +15,9 @@ nav {
 }
 
 nav li {
-    line-height: 5px;
-    margin: 5px;
+    line-height: 10spx;
+    margin-right: 10px;
+    margin-left: 2px;
     padding: 5px;
     list-style-type: none;
     cursor: pointer;
@@ -26,11 +27,11 @@ nav li {
 
 nav ul {
     width: 20%;
-    margin-left: 47%;
+    margin-left: 45%;
     margin-right: 44%;
 	padding: 0;
 	list-style-type: none;
-    height: 25px;
+    height: 30px;
     text-align: center;
 }
 
@@ -124,7 +125,7 @@ aside {
 
 footer {
     background: #2e294e;
-    width: 105.6%;
+    width: 80.6%;
     height: 100px;
     margin-left: -5%;
     margin-top: 60px;
