@@ -60,7 +60,7 @@ h2 {
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25em;
+    font-size: 1.2em;
     color: #1b998b;
     text-align: center;
     height: 30px;
@@ -77,10 +77,58 @@ h4 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: .8em;
     color: black;
     line-height: 1.5em;
+    font-weight: lighter;
+}
+
+/* Body */
+
+section {
+    width: 650px;
+    margin-left: 5%;
+}
+
+#studio {
+    text-align: center;
 }
 
 /* Images */
 
+.photographers {
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+
+#lights {
+    width: 600px;
+    height: 350px;
+    align-content: center;
+    margin-left: -5%;
+}
+
+/* Aside */
+
+aside {
+    border-style: solid;
+    border-width: 2px;
+    margin-top: -700px;
+    margin-right: 50px;
+    float: right;
+}
+
+/* Footer */
+
+footer {
+    background: #2e294e;
+    width: 105.6%;
+    margin-left: -5%;
+    clear: both;
+}
+
+footer p {
+    color: white;
+    float: center;
+}
